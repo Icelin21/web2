@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GLOVESTORE</title>
+</head>
+
+<body>
+    <div id="fondo">
+        <div id="menu">
+            <nav class="container">
+                <ul>
+                    <li><a href="index.html"><Strong>GLOVESTORE</Strong></a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="personalizados.html">Personalizados</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li>
+                        <a href="#">
+                            <img src="icon/heart.svg" alt="Favoritos" class="icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="icon/shop.svg" alt="Carrito de compras" class="icon">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="portada">
+            <div>
+                <div>
+                    <h4>30% de descuento</h4>
+                    <h1>Guantes azalea</h1>
+                    <button>Descubre más</button>
+                </div>
+            </div>
+            <div>
+                <img src="img/guantes_portada.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="productos">
+        <h1>PRODUCTOS DESTACADOS</h1>
+        <div>
+            <ul>
+                <li class="cambiar-imagen" data-imagen="img/img_h1.jpg, img/img_h2.jpg, img/img_h3.jpg">Hombres</li>
+                <li class="cambiar-imagen" data-imagen="img/img_m1.jpg, img/img_m2.jpg, img/img_m3.jpg">Mujeres</li>
+                <li class="cambiar-imagen" data-imagen="img/img_n1.jpg, img/img_n2.jpg, img/img_n3.jpg">Niños</li>
+            </ul>
+            <div id="imgs">
+                <div>
+                    <img src="img/img_h1.jpg" alt="" id="imagen1" class="imagen">
+                    <button>Ver mas</button>
+                </div>
+                <div>
+                    <img src="img/img_m1.jpg" alt="" id="imagen2" class="imagen">
+                    <button>Ver mas</button>
+                </div>
+                <div>
+                    <img src="img/img_n1.jpg" alt="" id="imagen3" class="imagen">
+                    <button>Ver mas</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="productos-nuevos">
+        <h1>NUEVOS PRODUCTOS</h1>
+        <div>
+            <div>
+                <img src="img/img_h1.jpg" alt="" class="imagen">
+                <button>Ver mas</button>
+            </div>
+            <div>
+                <img src="img/img_m1.jpg" alt="" class="imagen">
+                <button>Ver mas</button>
+            </div>
+            <div>
+                <img src="img/img_n1.jpg" alt="" class="imagen">
+                <button>Ver mas</button>
+            </div>
+            <div>
+                <img src="img/img_h2.jpg" alt="" class="imagen">
+                <button>Ver mas</button>
+            </div>
+            <div>
+                <img src="img/img_m2.jpg" alt="" class="imagen">
+                <button>Ver mas</button>
+            </div>
+            <div>
+                <img src="img/img_n2.jpg" alt="" class="imagen">
+                <button>Ver mas</button>
+            </div>
+        </div>
+    </div>
+    <div class="producto-descr">
+        <div class="product-1">
+            <div>
+                <h1>Características de nuestros guantes térmicos</h1>
+                <ul>
+                    <li>Material resistente al agua y al viento</li>
+                    <li>Aislamiento térmico de alta calidad</li>
+                    <li>Ajuste cómodo y ergonómico</li>
+                    <li>Palmas antideslizantes para un mejor agarre</li>
+                    <li>Diseño elegante y moderno</li>
+                </ul>
+            </div>
+            <div class="product-image">
+                <img src="img/img_h1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="product-2">
+            <div class="product-image">
+                <img src="img/img_m1.jpg" alt="">
+            </div>
+            <div>
+                <h1>Beneficios adicionales</h1>
+                <ul>
+                    <li>Protección contra el frío extremo</li>
+                    <li>Funcionamiento táctil en dispositivos móviles</li>
+                    <li>Amplia gama de tallas disponibles</li>
+                    <li>Envío rápido y seguro</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="contacto-p">
+        <div class="contacto">
+            <h2>¡Contáctanos!</h2>
+            <p>Si tienes alguna pregunta o consulta, no dudes en ponerte en contacto con nosotros.</p>
+        </div>
+        <div class="contacto-info">
+            <p><strong>Dirección:</strong> Calle Principal, Ciudad, País</p>
+            <p><strong>Teléfono:</strong> +123456789</p>
+            <p><strong>Correo electrónico:</strong> info@glovestore.com</p>
+        </div>
+        <form class="contacto-form">
+            <h3 class="form-title">Envíanos un mensaje</h3>
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="form-button">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <ul class="footer-menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Personalizados</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><img src="icon/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="icon/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="icon/instagram.svg" alt="Instagram"></a>
+        </div>
+        <p class="footer-text">&copy; 2023 Glovestore. Todos los derechos reservados.</p>
+    </footer>
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda</title>
+</head>
+<body>
+    <div id="menu" style="background: lightblue;">
+        <nav class="container">
+            <ul>
+                <li><a href="index.html"><Strong>GLOVESTORE</Strong></a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="personalizados.html">Personalizados</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <a href="#">
+                        <img src="icon/heart.svg" alt="Favoritos" class="icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="icon/shop.svg" alt="Carrito de compras" class="icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="contacto-p">
+        <div class="contacto">
+            <h2>¡Contáctanos!</h2>
+            <p>Si tienes alguna pregunta o consulta, no dudes en ponerte en contacto con nosotros.</p>
+        </div>
+        <div class="contacto-info">
+            <p><strong>Dirección:</strong> Calle Principal, Ciudad, País</p>
+            <p><strong>Teléfono:</strong> +123456789</p>
+            <p><strong>Correo electrónico:</strong> info@glovestore.com</p>
+        </div>
+        <form class="contacto-form">
+            <h3 class="form-title">Envíanos un mensaje</h3>
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="form-button">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <ul class="footer-menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Tienda</a></li>
+            <li><a href="#">Personalizados</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="#"><img src="icon/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="icon/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="icon/instagram.svg" alt="Instagram"></a>
+        </div>
+        <p class="footer-text">&copy; 2023 Glovestore. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
