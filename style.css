@@ -365,3 +365,9 @@ footer {
     padding: 20px 0;
     font-size: 12px;
 }
+
+@media (max-width: 768px) {
+    #fondo {
+        height: 50vh;
+    }
+}
