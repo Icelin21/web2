@@ -15,7 +15,7 @@
     background-image: url('img/portada.png');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100%;
 }
 
 #menu ul {
@@ -104,7 +104,7 @@ strong{
 }
 
 #productos {
-    height: 100vh;
+    height: 100%;
 }
 
 #productos h1 {
@@ -257,7 +257,7 @@ strong{
 }
 
 #contacto-p{
-    height: 85vh;
+    height: 85%;
 }
 
 .contacto p {
@@ -364,10 +364,4 @@ footer {
     text-align: center;
     padding: 20px 0;
     font-size: 12px;
-}
-
-@media (max-width: 768px) {
-    #fondo {
-        height: 50vh;
-    }
 }
